@@ -117,6 +117,7 @@ form .page .btns button .next{
 }
 
 .container .progress-bar .step{
+    position: relative;
     text-align: center;
     width: 100%;
 }
@@ -177,4 +178,9 @@ form .page .btns button .next{
 
 .progress-bar .step .check{
     position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 15px;
+    transform: translate(-50px, -50px);
+    display: none;
 }
