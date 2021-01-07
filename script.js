@@ -24,6 +24,7 @@ let current = 1;
 firtNextBtn.addEventListener("click", function(){
     slidePage.style.marginLeft = "-25%";
     bullet[current - 1].classList.add("active");
+    bullet[current - 1].classList.add("active");
     current += 1;
 });
 

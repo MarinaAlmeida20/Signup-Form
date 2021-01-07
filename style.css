@@ -174,7 +174,7 @@ form .page .btns button.next{
     }
 }
 
-.progress-bar .step span{
+.progress-bar .step .bullet span{
     font-weight: 500;
     font-size: 17px;
     line-height: 25px;
@@ -183,7 +183,7 @@ form .page .btns button.next{
     transform: translateX(-50%);
 }
 
-.progress-bar .step .check{
+.progress-bar .step .bullet.active span{
     display: none;
 }
 
