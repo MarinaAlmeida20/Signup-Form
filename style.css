@@ -128,6 +128,11 @@ form .page .btns button.next{
     font-weight: 500;
     color: #000;
     margin-bottom: 8px;
+    transition: 0.2s;
+}
+
+.progress-bar .step p.active{
+    color: red;
 }
 
 .progress-bar .step .bullet{

@@ -24,16 +24,25 @@ let current = 1;
 firtNextBtn.addEventListener("click", function(){
     slidePage.style.marginLeft = "-25%";
     bullet[current - 1].classList.add("active");
+    progressText[current - 1].classList.add("active");
     progressCheck[current - 1].classList.add("active");
     current += 1;
 });
 
 nextBtnSec.addEventListener("click", function(){
     slidePage.style.marginLeft = "-50%";
+    bullet[current - 1].classList.add("active");
+    progressText[current - 1].classList.add("active");
+    progressCheck[current - 1].classList.add("active");
+    current += 1;
 });
 
 nextBtnThird.addEventListener("click", function(){
     slidePage.style.marginLeft = "-75%";
+    bullet[current - 1].classList.add("active");
+    progressText[current - 1].classList.add("active");
+    progressCheck[current - 1].classList.add("active");
+    current += 1;
 });
 
 prevBtnSec.addEventListener("click", function(){
