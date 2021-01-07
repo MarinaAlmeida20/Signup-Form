@@ -189,8 +189,8 @@ form .page .btns button.next{
 
 .progress-bar .step .check{
     position: absolute;
-    left: 50%;
-    top: 70%;
+    left: 100%;
+    top: 130%;
     font-size: 15px;
     transform: translate(-50px, -50px);
     display: none;
