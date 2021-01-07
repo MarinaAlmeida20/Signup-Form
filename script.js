@@ -45,6 +45,17 @@ nextBtnThird.addEventListener("click", function(){
     current += 1;
 });
 
+submitBtn.addEventListener("click", function(){
+    bullet[current - 1].classList.add("active");
+    progressText[current - 1].classList.add("active");
+    progressCheck[current - 1].classList.add("active");
+    current += 1;
+    setTimeout(function(){
+        alert("Thanks!");
+    }, 800)
+});
+
+
 prevBtnSec.addEventListener("click", function(){
     slidePage.style.marginLeft = "0%";
 });
