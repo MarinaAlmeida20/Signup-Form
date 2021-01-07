@@ -51,7 +51,8 @@ submitBtn.addEventListener("click", function(){
     progressCheck[current - 1].classList.add("active");
     current += 1;
     setTimeout(function(){
-        alert("Thanks!");
+        alert("You're successfully Signed up");
+        location.reload();
     }, 800)
 });
 
