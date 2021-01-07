@@ -111,3 +111,7 @@ form .page .btns button .next{
     margin-left: 3px;
 }
 
+.container .progress-bar {
+    display: flex;
+    margin: 40px 0;
+}
