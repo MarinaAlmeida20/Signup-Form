@@ -103,12 +103,12 @@ form .page .field select {
     margin-top: -20px!important;
 }
 
-form .page .btns button .prev{
+form .page .btns button.prev{
     margin-right: 3px;
     font-size: 17px;
 }
 
-form .page .btns button .next{
+form .page .btns button.next{
     margin-left: 3px;
 }
 
@@ -137,6 +137,12 @@ form .page .btns button .next{
     border: 2px solid #000;
     display: inline-block;
     border-radius: 50%;
+    transition: 0.2s;
+}
+
+.progress-bar .step .bullet.active{
+    border-color: red;
+    background: red;
 }
 
 .progress-bar .step:last-child .bullet:before,
@@ -155,8 +161,8 @@ form .page .btns button .next{
     background: #262626;
 }
 
-.progress-bar .step .bullet:after{
-    background: #696161;
+.progress-bar .step .bullet.active:after{
+    background: red;
     transform: scale(0);
     transform-origin: left;
     animation: animate 0.3s linear forwards;
@@ -178,10 +184,19 @@ form .page .btns button .next{
 }
 
 .progress-bar .step .check{
+    display: none;
+}
+
+.progress-bar .step .check{
     position: absolute;
     left: 50%;
     top: 70%;
     font-size: 15px;
     transform: translate(-50px, -50px);
     display: none;
+}
+
+.progress-bar .step .check.active{
+    display: block;
+    color: #ffffff;
 }
