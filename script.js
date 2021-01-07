@@ -59,14 +59,26 @@ submitBtn.addEventListener("click", function(){
 
 prevBtnSec.addEventListener("click", function(){
     slidePage.style.marginLeft = "0%";
+    bullet[current - 2].classList.remove("active");
+    progressText[current - 2].classList.remove("active");
+    progressCheck[current - 2].classList.remove("active");
+    current -= 1;
 });
 
 prevBtnThird.addEventListener("click", function(){
     slidePage.style.marginLeft = "-25%";
+    bullet[current - 2].classList.remove("active");
+    progressText[current - 2].classList.remove("active");
+    progressCheck[current - 2].classList.remove("active");
+    current -= 1;
 });
 
 prevBtnFourth.addEventListener("click", function(){
     slidePage.style.marginLeft = "-50%";
+    bullet[current - 2].classList.remove("active");
+    progressText[current - 2].classList.remove("active");
+    progressCheck[current - 2].classList.remove("active");
+    current -= 1;
 });
 
 
